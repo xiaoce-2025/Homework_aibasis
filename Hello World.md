@@ -7,6 +7,8 @@
 `严小希`将在今年6月份参加高考并毕业，她一直梦想考入北京大学。在学校中，`严小希`以其阳光可爱、积极向上的性格在校园内外广受好评。她不仅学业优秀，还十分的可爱。
 
 ## 外貌
+<div align=right><img src ="./pictures/yanxx.png" style="zoom: 20%;" align=right /></div>
+
 头发：拥有一头柔软顺滑的浅棕色长发，常以半扎马尾或自然散落的发型示人，额前轻盈的刘海增添了几分俏皮感。
 
 眼睛：明亮的琥珀色眼眸，闪烁着好奇与智慧的光芒，笑起来时会弯成月牙形，给人以温暖亲切的感觉。
@@ -33,4 +35,5 @@
 
 ## 后记
 建议使用 [typora-purple](https://github.com/hliu202/typora-purple-theme/blob/master/purple.css) 的Markdown样式来阅读此文~
+
 感谢 [xiaoce-2025](https://github.com/xiaoce-2025/) 与 [firefly1145141919810](https://github.com/firefly1145141919810/) 对此项目做出的贡献~
