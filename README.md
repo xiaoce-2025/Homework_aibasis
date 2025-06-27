@@ -17,6 +17,9 @@
 [![Flask](https://img.shields.io/badge/Flask-2.0+-red.svg)](https://flask.palletsprojects.com)
 [![PyQt6](https://img.shields.io/badge/PyQt6-6.0+-orange.svg)](https://www.riverbankcomputing.com/software/pyqt/)
 
+---
+
+**让严小希陪伴你的每一天！** ✨
 </div>
 
 ## 📖 项目简介
