@@ -214,7 +214,7 @@ aibasis_homework/
 ---
 
 <div align="center">
-感谢**firefly1145141919810**与**xiaoce-2025**对此项目的贡献！
+感谢**firefly1145141919810**与**xiaoce-2025**对此项目的贡献！\n\n
 
 **让严小希陪伴你的每一天！** ✨
 
