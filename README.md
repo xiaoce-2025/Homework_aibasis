@@ -66,7 +66,14 @@ git clone https://github.com/xiaoce-2025/aibasis_homework.git
 cd aibasis_homework
 ```
 
-#### 2. 启动桌面宠物
+#### 2. 安装后端依赖
+
+```bash
+cd backend
+pip install -r requirements.txt
+```
+
+#### 3. 启动系统
 ```bash
 cd backend
 python main.py
@@ -172,9 +179,9 @@ aibasis_homework/
 
 ## 🙏 致谢
 
-- **严小希**：项目的灵感来源和核心角色
-- **开源社区**：感谢所有开源项目的支持
-- **用户反馈**：感谢所有用户的宝贵建议和反馈
+- **泡泡大人**：加入泡门，拥抱美好生活！正因为有您，我们才会创造出*严小希*这一可爱的角色
+- **櫟染**：为我们提供了部分动画支持
+- **firefly1145141919810**和**xiaoce-2025**
 
 ## 更新日志
 ### Beta 1.0
