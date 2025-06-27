@@ -205,6 +205,8 @@ aibasis_homework/
 1. 完成了全部内容
 2. 修复了一些已知问题
 
+*由于时间紧张，本版本尚未发布release，敬请谅解
+
 ---
 
 <div align="center">
