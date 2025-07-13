@@ -1,0 +1,60 @@
+version: '3.8'
+
+services:
+  # 后端服务
+  backend:
+    build:
+      context: ../backend
+      dockerfile: Dockerfile
+    container_name: yanxx-backend
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    environment:
+      - FLASK_ENV=production
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - SILICON_FLOW_API_KEY=${SILICON_FLOW_API_KEY}
+      - SECRET_KEY=${SECRET_KEY}
+    volumes:
+      - ../backend:/app
+      - ./data:/app/data
+    networks:
+      - yanxx-network
+
+  # 前端服务
+  frontend:
+    build:
+      context: ../gui
+      dockerfile: Dockerfile
+    container_name: yanxx-frontend
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    depends_on:
+      - backend
+    volumes:
+      - ../gui/dist:/usr/share/nginx/html
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+      - ./ssl:/etc/nginx/ssl
+    networks:
+      - yanxx-network
+
+  # Redis缓存（可选）
+  redis:
+    image: redis:alpine
+    container_name: yanxx-redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis-data:/data
+    networks:
+      - yanxx-network
+
+networks:
+  yanxx-network:
+    driver: bridge
+
+volumes:
+  redis-data: 
